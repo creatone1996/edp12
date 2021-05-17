@@ -1,0 +1,53 @@
+USE testingsystem3;
+-- cau2
+SELECT * FROM department ;
+
+-- CAU3
+SELECT * FROM DEPARTMENT WHERE DEPARTMENTNAME = 'SALE';
+
+-- CAU4
+SELECT* FROM `ACCOUNT`
+WHERE LENGTH(FULLNAME) = (SELECT max(length(FULLNAME))FROM `ACCOUNT`)
+ORDER BY FULLNAME;
+-- CAU 5
+
+
+-- CAU 6
+SELECT * FROM `GROUP` WHERE CREATEDATE < '2019-12-29 00:00:00';
+
+-- CAU 7
+SELECT *, COUNT(QuestionID) FROM answer GROUP BY QuestionID HAVING count(QuestionID) >=4;
+-- CAU 8
+SELECT * FROM exaM WHERE CREATEDATE < '2019-12-29 00:00:00' AND  Duration>= 60;
+
+-- CAU 9
+SELECT * FROM `GROUP` ORDER BY CREATEDATE DESC LIMIT 5;
+
+-- CAU 10
+SELECT departmentID,COUNT(*) FROM `ACCOUNT` GROUP BY departmentID HAVING departmentID = 2;
+
+-- CAU 11
+SELECT * FROM `ACCOUNT` WHERE FULLNAME LIKE 'D%O';
+
+-- CAU 12
+DELETE 
+FROM exam
+WHERE CreateDate < '2019-12-20 00:00:00';
+
+-- CAU 13
+DELETE
+FROM QUESTION
+WHERE CONTENT LIKE 'câu hỏi%';
+
+-- cau 14
+UPDATE `account`
+set fullname= ' Nguyễn Bá Lộc',
+email= 'loc.nguyenba@vti.com.vn'
+WHERE ACCOUNTID = 5;
+
+-- CAU15
+UPDATE GROUPACCOUNT
+SET accountID = 5
+WHERE groupID= 4;
+
+
