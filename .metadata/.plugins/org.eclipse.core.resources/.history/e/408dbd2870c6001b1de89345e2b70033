@@ -114,7 +114,7 @@ public class Hieu2 {
 
 		
 		
-		Question[] question = new Question();
+		//Question[] quesTion = new Question();
 		
 		
 		Exam exami = new Exam();
