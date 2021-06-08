@@ -1,0 +1,39 @@
+package hieu2;
+
+public class Hieu2 {
+
+	public static void main(String[] args) {
+		Department department = new Department();
+		department.id = 1;
+		department.departmentName = "Phong Sale";
+		System.out.println("id: " + department.id);
+		System.out.println("departmentName:" + department.departmentName);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		// TODO Auto-generated method stub
+//		int a = 1;
+//		int b = 5;
+//		String hoten = "Pham Trung Hieu";
+//		int[] mangso = { 1, 2, 3 };
+//		for (int i = 0; i < mangso.length; i++)
+//
+////System.out.println("hello world");
+////System.out.println("Ten toi la: " + "Pham Trung Hieu");
+////System.out.println("tong cua " + a + " va " + b + " la:" + ( a + b ));
+//		{
+//			System.out.println(" so thu " + i + " la: " + mangso[i]);
+//		}
+	}
+
+}

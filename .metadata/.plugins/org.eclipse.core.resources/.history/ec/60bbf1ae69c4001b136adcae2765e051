@@ -1,0 +1,15 @@
+package hieu2;
+
+public class Hieu2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 1;
+		int b = 5;
+		String hoten = "Pham Trung Hieu";
+System.out.println("hello world");
+System.out.println("Ten toi la: " + "Pham Trung Hieu");
+System.out.println("tong cua " + a + " va " + b + "la:" + ( a + b ));
+	}
+
+}

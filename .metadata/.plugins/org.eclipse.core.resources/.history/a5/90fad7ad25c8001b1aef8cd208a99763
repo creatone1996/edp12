@@ -1,0 +1,12 @@
+package vti.com.railway12;
+
+public class Question1 {
+
+	
+	System.out.println("QUESTION 1");
+	
+	System.out.println(" cau 1");
+	int i = 5;
+	System.out.println(i);
+	
+}

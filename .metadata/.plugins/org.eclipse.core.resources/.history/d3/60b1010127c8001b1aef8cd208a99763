@@ -1,0 +1,26 @@
+package Exercise2;
+
+import java.util.Locale;
+
+public class System_out_print {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println("QUESTION 1");
+		int i = 5;
+		System.out.println(i);
+		
+		System.out.println("QUESTION 2");
+		int i1 = 100000000;
+		System.out.printf(Locale.US,"%,d%n" ,i1);
+		
+		System.out.println("QUESTION 3");
+		float i2 = 5.567098f;
+		System.out.printf("%5.4f%n",i2);
+		
+		
+	}
+
+}
