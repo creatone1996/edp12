@@ -1,0 +1,15 @@
+package Exercise3;
+
+import java.util.Random;
+
+
+public class Random_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random random = new Random();
+		int n = random.nextInt();
+		System.out.println("so tu nhien la:" + n);
+	}
+
+}

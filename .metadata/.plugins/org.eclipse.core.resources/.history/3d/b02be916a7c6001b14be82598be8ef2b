@@ -1,0 +1,13 @@
+package VTIfunction;
+
+public class ProgramFunction {
+
+	public static void main(String[] args) {
+		hienThiten();
+	}
+		public static void hienThiten() {
+			System.out.println("toi la ai, day la dau");
+		}
+	}
+
+
