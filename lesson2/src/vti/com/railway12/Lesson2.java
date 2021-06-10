@@ -204,8 +204,8 @@ public class Lesson2 {
 		
 		
 		System.out.println("cau 8");
-		Account[] accArray = { account0,account1, account2 };
-		for (Account account : accArray) {
+		Account[] acccounts1 = { account0,account1, account2 };
+		for (Account account : acccounts1) {
 		System.out.println("AccountID: " + account.id + " Email: " + account.email + " Name: " + account.fullName);
 		};
 		

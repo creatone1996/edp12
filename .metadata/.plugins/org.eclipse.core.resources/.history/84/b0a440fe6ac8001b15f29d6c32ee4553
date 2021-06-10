@@ -1,0 +1,22 @@
+package BTthem;
+
+import java.util.Scanner;
+
+public class BT3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Moi ban Nhap vao so");
+		int Sonhapvao = scanner.nextInt(10);
+		CacSo(Sonhapvao);
+		
+
+	}
+public static void CacSo (int Sonhapvao) {
+	if(Sonhapvao%7 == 0 && Sonhapvao%5 != 0) {
+		System.out.println("CacSo");
+		
+	}
+}
+}

@@ -1,0 +1,17 @@
+package BTthem;
+
+import java.util.Random;
+
+
+
+public class BT3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Random random = new Random();
+		int i = random.nextInt(200);
+		System.out.println(i);
+	}
+
+}

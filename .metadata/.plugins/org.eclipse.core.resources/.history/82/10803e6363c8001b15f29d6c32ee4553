@@ -1,0 +1,12 @@
+package Exercise5;
+
+import java.util.Scanner;
+
+public class BT {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new 
+	}
+
+}
